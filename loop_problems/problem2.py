@@ -15,7 +15,8 @@ i = 0
 while i<len(tup):
     if tup[i]==x:
         print(x,"is found in the tuple at index",i)
-        break
+    else:
+        print("finding....")
     i += 1 
 else:
      print(x,"is not found in the tuple")
