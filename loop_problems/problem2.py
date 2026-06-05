@@ -1,7 +1,7 @@
 '''Print the elements of the following list using loop'''
 '''[1,4,9,16,25,36,49,64,81,100]'''
 
-i =1
+i =1           
 list = []
 while i<=10:
     list.append(i**2)
